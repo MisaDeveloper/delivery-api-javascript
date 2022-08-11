@@ -2,6 +2,9 @@
     <h1>
         Delivery API
     </h1>
+    <br>
+        <p>Vídeo de demonstração do Delivery API: https://www.youtube.com/watch?v=xP1k_agfcSk&list=LL6tHg2GmPgGBgCmTMltgO-A</p>
+    <br>
     <p>
         Uma API de pedidos de delivery, com possibilidade de CRUD e alteração do estado dos pedidos.
     </p>
