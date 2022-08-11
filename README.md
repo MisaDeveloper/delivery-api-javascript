@@ -3,9 +3,19 @@
         Delivery API
     </h1>
     <p>
-        Uma API de pedidos de delivery, com possibilidade de consulta, cadastro, edição, exclusão e alteração do estado do pedido.
+        Uma API de pedidos de delivery, com possibilidade de CRUD e alteração do estado dos pedidos.
+    </p>
+    <p>
+        Essa API foi desenvolvida utilizando a arquitetura MVC, com as seguintes regras:
     </p>
 </div>
+
+* Os ```Models``` são os responsáveis pela manipulação dos dados, o ```models/Connection.js``` faz a conexão com o arquivo .json e retorna as funções de leitura e gravação de dados.
+* Os ```Controllers``` recebem as requisições do Client, envia para o ```Model``` responsável pela ação requisitada e retorna uma resposta para o Client com o status da requisição. Os ```Controllers``` também são responsáveis pelo tratamento de erros na aplicação.
+* O ```routes/routes.js``` é responsável por definir as rotas da aplicação e acionar o controller responsável pelo tratamento das rotas
+* O arquivo ```App.js``` é a base da aplicação, é o arquivo que gerencia as PORTAS que serão usadas e o arquivo que fará a aplicação iniciar.
+
+<br>
 
 <div>
     <h2>
